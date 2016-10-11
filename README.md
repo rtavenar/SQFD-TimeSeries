@@ -32,14 +32,14 @@ python ${EXECUTABLE} FISH 1024
 ```
 
 ## SQFD-KM
-To run the _SQFD-KM_ method on dataset `FISH` with $D=1024$, run:
+To run the _SQFD-KM_ method on dataset `FISH` with $k=256$, run:
 ```bash
 SOURCEDIR=/path/to/the/base/dir/of/the/project/
 WORKINGDIR=${SOURCEDIR}/
 EXECUTABLE=${SOURCEDIR}/ucr_sqfd_km.py
 export PYTHONPATH="${PYTHONPATH}:${SOURCEDIR}"
 cd ${WORKINGDIR}
-python ${EXECUTABLE} FISH 1024
+python ${EXECUTABLE} FISH 256
 ```
 
 ## SQFD-Nystroem
