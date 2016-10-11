@@ -17,10 +17,7 @@ sklearn
 
 Also, if one wants to run experiments on the UCR dataset, she should download it from 
 [here](http://www.cs.ucr.edu/~eamonn/time_series_data/) and paste it (preserving its subfolder structure) to `datasets/ucr`.
-Then, using the software from <>, she should generate time-sensitive features into the folder `datasets/ucr_t` with class information inside `datasets/ucr_classes`.
-
-
-**TODO**: demander à Adeline de mettre en ligne son code avec extraction des timestamps
+Then, using the software from <https://github.com/a-bailly/dbotsw>, she should generate time-sensitive features into the folder `datasets/ucr_t` with class information inside `datasets/ucr_classes`.
 
 # Running
 ## Baseline (BoW)
