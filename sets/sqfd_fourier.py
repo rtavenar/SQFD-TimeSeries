@@ -7,11 +7,10 @@ from utils import kernel, dictionary, preprocess, numpy_fe, sklearn_fe
 
 
 def phi_rbf_proj_set(set1, rbf_feature, norm_t=False):
-    d = rbf_feature.n_components
     phi = numpy.mean(rbf_feature.transform(set1), axis=0)
     if norm_t is not None:
         phi /= norm_t
-    return phi.reshape((d, ))
+    return phi
 
 
 
