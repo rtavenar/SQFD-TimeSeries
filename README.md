@@ -4,7 +4,19 @@ This code is the one used to generate results presented in the paper
 *Efficient Temporal Kernels between Feature Sets for Time Series Classification*.
 When using this code, please cite:
 ```
-TODO
+@inproceedings{tavenard:halshs-01561461,
+  TITLE = {{Efficient Temporal Kernels between Feature Sets for Time Series Classification}},
+  AUTHOR = {Tavenard, Romain and Malinowski, Simon and Chapel, Laetitia and Bailly, Adeline and Sanchez, Heider and Bustos, Benjamin},
+  URL = {https://halshs.archives-ouvertes.fr/halshs-01561461},
+  BOOKTITLE = {{European Conference on Machine Learning and Principles and Practice of Knowledge Discovery}},
+  ADDRESS = {Skopje, Macedonia},
+  YEAR = {2017},
+  MONTH = Sep,
+  KEYWORDS = {Time series classification},
+  PDF = {https://halshs.archives-ouvertes.fr/halshs-01561461/file/paper.pdf},
+  HAL_ID = {halshs-01561461},
+  HAL_VERSION = {v1},
+}
 ```
 
 # Requirements
