@@ -19,6 +19,10 @@ When using this code, please cite:
 }
 ```
 
+# Supplementary material
+
+Supplementary material for this paper is available [here](https://github.com/rtavenar/SQFD-TimeSeries/blob/master/ecml_sqfd_supp.pdf).
+
 # Requirements
 For this code to run properly, the following python packages should be installed:
 ```
